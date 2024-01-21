@@ -1,0 +1,36 @@
+{
+  "menu": [
+    {
+      "name": "Margherita Pizza",
+      "description": "Fresh mozzarella, basil, and tomato sauce on a crispy crust."
+    },
+    {
+      "name": "Spaghetti Bolognese",
+      "description": "Tender spaghetti with rich meat sauce and a sprinkle of Parmesan cheese."
+    },
+    {
+      "name": "Lasagna",
+      "description": "Layers of pasta, meat sauce, and melted mozzarella cheese."
+    },
+    {
+      "name": "Chicken Parmesan",
+      "description": "Breaded and fried chicken topped with marinara sauce and melted mozzarella cheese."
+    },
+    {
+      "name": "Caprese Salad",
+      "description": "Fresh mozzarella, tomato, and basil drizzled with olive oil and balsamic glaze."
+    },
+    {
+      "name": "Bruschetta",
+      "description": "Toasted bread topped with diced tomatoes, garlic, and basil."
+    },
+    {
+      "name": "Cannoli",
+      "description": "Crispy pastry shells filled with sweet ricotta cheese and chocolate chips."
+    },
+    {
+      "name": "Tiramisu",
+      "description": "Coffee-soaked ladyfingers layered with mascarpone cheese and cocoa powder."
+    }
+  ]
+}

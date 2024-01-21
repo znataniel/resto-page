@@ -1,4 +1,3 @@
-import initLoad from "./initial_load.js";
-
-console.log("hello from index.js");
-initLoad();
+import contactTab from "./contact-tab";
+import homeTab from "./home-tab";
+import menuTab from "./menu-tab.js";
