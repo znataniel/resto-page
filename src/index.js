@@ -3,8 +3,9 @@ import contactTab from "./contact-tab";
 import homeTab from "./home-tab";
 import menuTab from "./menu-tab.js";
 
+const content = document.querySelector("div#content");
+
 function clearContent() {
-  const content = document.querySelector("div#content");
   while (content.firstChild) {
     content.removeChild(content.firstChild);
   }
@@ -24,16 +25,16 @@ tabButtons.forEach((e) => {
     e.classList.add("active");
     switch (e.textContent) {
       case "Home":
-        homeTab();
+        content.appendChild(homeTab());
         break;
       case "Menu":
-        menuTab();
+        content.appendChild(menuTab());
         break;
       case "Contact":
-        contactTab();
+        content.appendChild(contactTab());
         break;
     }
   });
 });
 
-homeTab();
+content.appendChild(homeTab());

@@ -1,5 +1,5 @@
 function contactTab() {
-  const content = document.querySelector("div#content");
+  const contactTabDiv = document.createElement("article");
   const contactData = {
     address: "Gorriti 6012",
     city: "Buenos Aires",
@@ -11,8 +11,11 @@ function contactTab() {
   for (let i in contactData) {
     const para = document.createElement("p");
     para.textContent = contactData[i];
-    content.appendChild(para);
+    contactTabDiv.appendChild(para);
   }
+  contactTabDiv.classList.add("contact-tab");
+
+  return contactTabDiv;
 }
 
 export default contactTab;
