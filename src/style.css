@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0;
+
+  background-color: black;
+
+  box-sizing: border-box;
+}
+
+body > * {
+  width: 60%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* padding: 1rem; */
+
+  color: white;
+}
+
+#content {
+  background-color: lightblue;
+  margin-top: 2rem;
+}
+
+.home-pic {
+  width: 100%;
+}
+
+button.tab {
+  height: 100%;
+  margin: 0 1rem;
+  padding: 1rem 0;
+
+  box-sizing: border-box;
+
+  border: 0;
+
+  background-color: black;
+  color: white;
+
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+button.tab.active {
+  border-bottom: 2px solid white;
+}

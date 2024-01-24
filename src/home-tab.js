@@ -1,6 +1,6 @@
 import italianRestaurantImage from "./traditional-italian-restaurant-milan-lombardy-italy-EFJXMJ.jpeg";
 
-function homeTab() {
+function initLoad() {
   const content = document.querySelector("div#content");
   const restoName = "Bella Vita Ristorante";
   const restoDesc =
@@ -14,10 +14,11 @@ function homeTab() {
 
   const mainImage = new Image();
   mainImage.src = italianRestaurantImage;
+  mainImage.classList.add("home-pic");
 
   content.appendChild(pageTitle);
   content.appendChild(mainImage);
   content.appendChild(pageDesc);
 }
 
-export default homeTab;
+export default initLoad;
